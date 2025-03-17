@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.mood-selector {
+  margin-bottom: 20px;
+}
+
+.moods {
+  display: flex;
+  gap: 10px;
+}
+
+.mood {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.timeline-view button {
+  margin: 5px;
+}
+
+.timeline-view,
+.calendar-view {
+  margin-top: 20px;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+#calendar div {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
